@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+amcat4 = {editable = true, ref = "c419aa4ba6a03074c78820de18465620d6cb4fc5", git = "https://github.com/ccs-amsterdam/amcat4.git"}
+bcrypt = "==3.2.0"
+certifi = "==2020.12.5"
+cffi = "==1.14.5"
+click = "==7.1.2"
+elasticsearch = "==7.11.0"
+itsdangerous = "==1.1.0"
+nose = "==1.3.7"
+peewee = "==3.14.3"
+pycparser = "==2.20"
+six = "==1.15.0"
+urllib3 = "==1.26.4"
+Flask = "==1.1.2"
+Flask-Cors = "==3.0.10"
+Flask-HTTPAuth = "==4.2.0"
+Jinja2 = "==2.11.3"
+MarkupSafe = "==1.1.1"
+Werkzeug = "==1.0.1"
+antigravity = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
